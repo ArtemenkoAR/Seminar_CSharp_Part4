@@ -6,3 +6,12 @@ Console.Write("Введите число A: ");
 int A = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число B: ");
 int B = int.Parse(Console.ReadLine()!);
+Degree(A, B);
+
+void Degree(int a, int b)
+{
+    if (b>0)
+    {
+      Console.WriteLine(Math.Pow(a, b));  
+    }   
+}
